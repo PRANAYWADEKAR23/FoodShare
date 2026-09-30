@@ -1,0 +1,1 @@
+const express=require('express');const router=express.Router();router.get('/listings',(req,res)=>res.json({items:[],message:'Food listing API is ready for the next frontend integration.'}));module.exports=router;

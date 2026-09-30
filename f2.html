@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FoodShare | Connecting Surplus Food to Those in Need</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:wght@500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="style2.css">
+
+</head>
+<body>
+
+    <header class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#home" class="logo-area">
+                <img src="bg_removed_logo.png" alt="FoodShare Logo" class="logo-img" onerror="this.style.display='none'">
+            </a>
+
+            <!-- Pure CSS Mobile Menu Switch -->
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </label>
+
+            <nav class="nav-links">
+                <a href="#purpose" class="nav-text-link">Purpose</a>
+                <a href="#mission" class="nav-text-link">Our Mission</a>
+                <a href="#how-it-works" class="nav-text-link">How It Works</a>
+                <a href="#features" class="nav-text-link">Features</a>
+                <a href="#impact" class="nav-text-link">Impact</a>
+                <a href="#donate" class="btn btn-primary" style="color: white; padding: 12px 28px; border-radius: 50px;">Donate Food</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-content">
+        
+        <!-- SECTION 1: HOME (Expanded Content) -->
+        <section id="home" class="view-page">
+            <div class="hero pattern-dots">
+                <div class="hero-bg-shape"></div>
+                <div class="container hero-container">
+                    <div class="hero-content">
+                        <span class="section-tag">Reducing Waste, Fighting Hunger</span>
+                        <h1>Connecting Surplus Food to Those in Need.</h1>
+                        <p>Every meal shared makes a difference. FoodShare bridges the gap between abundance and hunger by instantly connecting surplus food from events and restaurants with local NGOs via intelligent, real-time routing.</p>
+                        <div class="hero-buttons">
+                            <a href="#donate" class="btn btn-primary"><i class="fas fa-heart"></i> Start Donating</a>
+                            <a href="#how-it-works" class="btn btn-secondary">See How It Works <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    
+                    <div class="hero-image">
+                         
+                        <div class="hero-image-wrapper">
+                            <img src="fodshare.jpeg" alt="Box of fresh vegetables - FoodShare">
+                            <div class="floating-badge">
+                                <div class="icon-box"><i class="fas fa-shield-heart"></i></div>
+                                <div>
+                                    <strong style="color: var(--dark-brown); font-size: 1.2rem; display:block;">100% Secure Platform</strong>
+                                    <span style="color: var(--brown); font-size: 0.95rem;">Trusted by 500+ local NGOs</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="stats-section">
+                <div class="container">
+                    <div class="stats-grid">
+                        <div class="stat-item"><h3>2M+</h3><p>Meals Rescued</p></div>
+                        <div class="stat-item"><h3>850+</h3><p>NGO Partners</p></div>
+                        <div class="stat-item"><h3>45</h3><p>Active Cities</p></div>
+                        <div class="stat-item"><h3>1.2M</h3><p>Kg CO₂ Saved</p></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section-padding bg-cream">
+                <div class="container">
+                    <div class="text-center">
+                        <span class="section-tag">Platform Value</span>
+                        <h2 class="section-title">Why Partner with FoodShare?</h2>
+                        <p class="section-subtitle">We transform the complex logistical nightmare of food redistribution into a simple, seamless process that drives incredible social ROI for your business.</p>
+                    </div>
+                    <div class="card-grid">
+                        <div class="info-card">
+                            <i class="fas fa-bolt info-card-icon"></i>
+                            <h3>Instant Algorithmic Matching</h3>
+                            <p>No waiting around or making manual calls. The moment you post surplus food, our proprietary algorithm alerts verified charities in your exact radius, ensuring rapid pickup and zero spoilage.</p>
+                        </div>
+                        <div class="info-card">
+                            <i class="fas fa-file-invoice info-card-icon"></i>
+                            <h3>Automated CSR & Tax Receipts</h3>
+                            <p>We do the heavy lifting for your accounting team. Our platform automatically tracks the nutritional value, volume, and financial equivalent of your donations, generating audit-ready PDF reports.</p>
+                        </div>
+                        <div class="info-card">
+                            <i class="fas fa-globe info-card-icon"></i>
+                            <h3>Hyper-Local Impact</h3>
+                            <p>Watch your immediate community thrive. By keeping food distribution within a tight local radius, we feed your neighbors in need while drastically cutting down transportation emissions.</p>
+                        </div>
+                    </div>
+
+                    <!-- NEW CONTENT: Urgent Local Needs Banner -->
+                    <div class="urgent-banner">
+                        <div>
+                            <h3><i class="fas fa-bullhorn" style="margin-right: 10px;"></i> Local Spotlight: Emergency Shelter Support Needed</h3>
+                            <p>With dropping winter temperatures, downtown shelters are urgently requesting hot stews, thick soups, and warm bread for evening distributions.</p>
+                        </div>
+                        <div>
+                            <a href="#donate" class="btn btn-primary" style="white-space: nowrap;">Fulfill Need Now</a>
+                        </div>
+                    </div>
+
+                    <!-- NEW CONTENT: Food Categories -->
+                    <div style="margin-top: 100px;">
+                        <h3 class="text-center" style="font-size: 2.2rem;">What We Currently Rescue</h3>
+                        <div class="category-grid">
+                            <div class="category-card">
+                                <i class="fas fa-utensils"></i>
+                                <h4>Prepared Meals</h4>
+                                <p style="font-size: 0.9rem; margin-top: 10px;">Unserved buffet & catering trays.</p>
+                            </div>
+                            <div class="category-card">
+                                <i class="fas fa-carrot"></i>
+                                <h4>Fresh Produce</h4>
+                                <p style="font-size: 0.9rem; margin-top: 10px;">Vegetables and fruits near expiry.</p>
+                            </div>
+                            <div class="category-card">
+                                <i class="fas fa-bread-slice"></i>
+                                <h4>Baked Goods</h4>
+                                <p style="font-size: 0.9rem; margin-top: 10px;">Day-old pastries and fresh bread.</p>
+                            </div>
+                            <div class="category-card">
+                                <i class="fas fa-box-open"></i>
+                                <h4>Packaged Groceries</h4>
+                                <p style="font-size: 0.9rem; margin-top: 10px;">Cans and dry goods overstock.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- NEW CONTENT: Partners Banner -->
+                    <div class="partners-banner">
+                        <h3 style="font-size: 1.5rem; color: var(--brown);">Trusted by Corporate Leaders & Hospitality Chains</h3>
+                        <div class="logo-strip">
+                            <span><i class="fas fa-building"></i> TechGlobal</span>
+                            <span><i class="fas fa-hotel"></i> Grand Suites</span>
+                            <span><i class="fas fa-store-alt"></i> MegaMart</span>
+                            <span><i class="fas fa-coffee"></i> MorningBrew</span>
+                            <span><i class="fas fa-leaf"></i> FreshFoods Inc.</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <div class="page-divider"></div>
+
+        <!-- SECTION 2: PURPOSE -->
+        <section id="purpose" class="section-padding pattern-dots view-page">
+            <div class="container">
+                <div class="text-center">
+                    <span class="section-tag">Our Reason for Being</span>
+                    <h2 class="section-title">The Paradox of Plenty</h2>
+                    <p class="section-subtitle">We live in a world that produces enough food to feed everyone 1.5 times over, yet millions go to sleep hungry. FoodShare exists solely to fix this broken supply chain.</p>
+                </div>
+
+                <div class="pro-stat-wrapper">
+                    <div class="pro-stat-card">
+                        <h2>1/3</h2>
+                        <p>Of all food produced globally is lost or wasted annually.</p>
+                    </div>
+                    <div class="pro-stat-card">
+                        <h2>828M</h2>
+                        <p>People suffer from severe undernourishment worldwide.</p>
+                    </div>
+                    <div class="pro-stat-card">
+                        <h2>8%</h2>
+                        <p>Of total global greenhouse gas emissions come from food waste.</p>
+                    </div>
+                </div>
+
+                <div class="split-section" style="margin-top: 80px;">
+                    <div class="split-content">
+                        <h3 style="color: var(--orange); font-size: 2.2rem;">The Global Crisis</h3>
+                        <p>When food is thrown out, the tragedy extends far beyond the lost calories. We waste the fresh water, agricultural land, massive amounts of energy, and human labor used to produce it.</p>
+                        <p>Furthermore, rotting food in landfills is suffocating our planet. It undergoes anaerobic decomposition, generating methane—a greenhouse gas that is <strong>25 times more potent than carbon dioxide</strong> at trapping heat in the atmosphere.</p>
+                        <ul class="pro-list">
+                            <li>Food waste costs the global economy nearly $940 Billion each year.</li>
+                            <li>If food waste were a country, it would be the 3rd largest emitter of greenhouse gases.</li>
+                            <li>40% of all food waste occurs precisely at the retail and consumer levels.</li>
+                        </ul>
+                    </div>
+                    <div class="split-image">
+                        <img src="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Volunteers organizing food">
+                    </div>
+                </div>
+
+                <div class="split-section reverse" style="margin-top: 80px; padding: 60px; background: var(--cream); border-radius: 30px;">
+                    <div class="split-content">
+                        <h3 style="color: var(--green); font-size: 2.2rem;">Our Founding Story</h3>
+                        <p>FoodShare started when a group of tech engineers and catering professionals witnessed the sheer volume of perfectly good, premium food being dumped into dumpsters after large corporate gala events in 2021.</p>
+                        <p>Frustrated by the legal red tape and lack of immediate logistics to move this food to nearby shelters, they realized a fundamental truth: <strong>Hunger is not a problem of supply; it is a problem of logistics and real-time communication.</strong></p>
+                        <p>By leveraging modern mobile technology and geospatial algorithms, we created a digital bridge. Today, FoodShare serves as the vital link, ensuring that excess food meets empty plates in under 60 minutes.</p>
+                    </div>
+                    <div class="split-image">
+                        <img src="https://images.unsplash.com/photo-1594708767771-a7502209ff51?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Fresh ingredients saved from waste">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 3: MISSION -->
+        <section id="mission" class="section-padding bg-cream view-page">
+            <div class="container">
+                <div class="text-center">
+                    <span class="section-tag">Strategic Direction</span>
+                    <h2 class="section-title">Mission, Vision, and Values</h2>
+                    <p class="section-subtitle">FoodShare is driven by a deep commitment to systemic change. We don't just want to move food; we want to reshape how businesses and society value their resources.</p>
+                </div>
+
+                <div class="vision-mission-box">
+                    <div class="vm-col">
+                        <h3 style="color: var(--orange);"><i class="fas fa-eye"></i> Our Vision</h3>
+                        <p>"A world where perfectly good food never ends up in a landfill, and where no member of our community has to worry about where their next meal will come from."</p>
+                    </div>
+                    <div class="vm-divider"></div>
+                    <div class="vm-col">
+                        <h3 style="color: var(--green);"><i class="fas fa-bullseye"></i> Our Mission</h3>
+                        <p>"To provide a seamless, enterprise-grade technology platform that empowers businesses to easily, safely, and legally divert their surplus food to verified local charities in real-time."</p>
+                    </div>
+                </div>
+                
+                <h3 class="text-center" style="margin-top: 80px; font-size: 2.5rem;">The Three Pillars of Action</h3>
+                <div class="steps-grid" style="margin-top: 30px;">
+                    <div class="step-card" style="padding-top: 20px;">
+                        <i class="fas fa-hand-holding-heart" style="font-size: 4rem; color: var(--green); margin-bottom: 20px;"></i>
+                        <h3 style="color: var(--green);">Compassionate Relief</h3>
+                        <p>We prioritize human dignity above all else. Providing reliable access to nutritious, high-quality, and culturally appropriate food for those experiencing extreme hardship in our communities is our primary directive.</p>
+                    </div>
+                    <div class="step-card" style="padding-top: 20px;">
+                        <i class="fas fa-leaf" style="font-size: 4rem; color: var(--gold); margin-bottom: 20px;"></i>
+                        <h3 style="color: var(--gold);">Environmental Stewardship</h3>
+                        <p>We actively protect our planet by ensuring perfectly good food is consumed. Every single meal rescued on our platform is a direct, measurable reduction in harmful methane greenhouse gas emissions.</p>
+                    </div>
+                    <div class="step-card" style="padding-top: 20px;">
+                        <i class="fas fa-users-rays" style="font-size: 4rem; color: var(--orange); margin-bottom: 20px;"></i>
+                        <h3 style="color: var(--orange);">Community Empowerment</h3>
+                        <p>We believe in collective, decentralized power. We build stronger, resilient networks by fostering direct, transparent relationships between generous local business donors and dedicated grassroots volunteer groups.</p>
+                    </div>
+                </div>
+
+                <div class="tech-banner" style="background: var(--white); border: 2px solid var(--border-color); color: var(--dark-brown);">
+                    <div style="flex: 1;">
+                        <h3 style="color: var(--dark-brown);">Aligned with the UN SDGs</h3>
+                        <p style="font-size: 1.1rem; max-width: 600px;">FoodShare's core operations directly support the United Nations Sustainable Development Goals for 2030. We are strictly committed to creating measurable global impact through local, scalable actions.</p>
+                    </div>
+                    <div style="flex: 1; display: flex; gap: 20px; flex-wrap: wrap;">
+                        <div style="background: #dda63a; color: white; padding: 20px; border-radius: 15px; flex: 1; min-width: 200px;">
+                            <h2 style="color:white; margin-bottom: 5px;">Goal 2</h2>
+                            <strong>Zero Hunger</strong>
+                        </div>
+                        <div style="background: #bf8b2e; color: white; padding: 20px; border-radius: 15px; flex: 1; min-width: 200px;">
+                            <h2 style="color:white; margin-bottom: 5px;">Goal 12</h2>
+                            <strong>Responsible Consumption</strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 4: HOW IT WORKS -->
+        <section id="how-it-works" class="section-padding pattern-dots view-page">
+            <div class="container">
+                <div class="text-center">
+                    <span class="section-tag">The Process Explained</span>
+                    <h2 class="section-title">How FoodShare Works</h2>
+                    <p class="section-subtitle">We have engineered a flawless, real-time pipeline that removes all friction from food donation. From the kitchen to the community center in three easy steps.</p>
+                </div>
+
+                <div class="steps-grid">
+                    <div class="step-card">
+                        <div class="step-number">1</div>
+                        <h3>Post Surplus Food</h3>
+                        <p>Using our mobile or web app, food donors quickly input details of their excess food. They select the food category (e.g., Prepared Meals), enter the quantity, and set a strict pick-up time.</p>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-number">2</div>
+                        <h3>Algorithmic Match</h3>
+                        <p>Our system instantly processes the donation and pings nearby, verified NGOs whose profiles match the food type and volume. The first NGO to accept the donation locks it in.</p>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-number">3</div>
+                        <h3>Secure Pickup & Track</h3>
+                        <p>A trained volunteer from the claiming NGO is dispatched. Once picked up, the food is tracked live until it is safely distributed, ensuring complete chain-of-custody transparency.</p>
+                    </div>
+                </div>
+
+                <div class="split-section" style="margin-top: 120px;">
+                    <div class="split-content" style="background: var(--white); padding: 50px; border-radius: 24px; box-shadow: var(--shadow-md);">
+                        <h3 style="color: var(--orange); font-size: 2rem;"><i class="fas fa-store"></i> For Food Donors</h3>
+                        <p>Turn your unavoidable excess into a powerful CSR asset in under 60 seconds.</p>
+                        <ul class="pro-list">
+                            <li><strong>Full Legal Protection:</strong> Our Terms of Service are built around the Good Samaritan Food Donation Act.</li>
+                            <li><strong>Custom Scheduling:</strong> Got a late-night catering event? Schedule pickups for specific timeframes.</li>
+                            <li><strong>Rich Analytics:</strong> Access a dashboard showing meals provided and your carbon offset.</li>
+                        </ul>
+                        <a href="#donate" class="btn btn-primary" style="margin-top: 15px;">Become a Donor Today</a>
+                    </div>
+                    <div class="split-content" style="background: var(--dark-brown); color: var(--white); padding: 50px; border-radius: 24px; box-shadow: var(--shadow-md);">
+                        <h3 style="color: var(--green); font-size: 2rem;"><i class="fas fa-hands-holding-child"></i> For NGOs & Charities</h3>
+                        <p style="color: var(--cream);">Stop stressing about sourcing food and focus entirely on serving your beneficiaries.</p>
+                        <ul class="pro-list" style="color: white;">
+                            <li><strong style="color: var(--gold);">Smart Filtering:</strong> Only receive notifications for food you can actually use based on your facilities.</li>
+                            <li><strong style="color: var(--gold);">Fleet Management:</strong> Assign claimed pickups directly to specific volunteer drivers.</li>
+                            <li><strong style="color: var(--gold);">Predictable Supply:</strong> Build relationships with regular corporate donors.</li>
+                        </ul>
+                        <a href="#donate" class="btn btn-secondary" style="margin-top: 15px; background: transparent; color: var(--white) !important; border-color: var(--gold);">Apply as an NGO Partner</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 5: FEATURES -->
+        <section id="features" class="section-padding bg-cream view-page">
+            <div class="container">
+                <div class="text-center">
+                    <span class="section-tag">Enterprise Capabilities</span>
+                    <h2 class="section-title">A Powerful Technology Stack</h2>
+                    <p class="section-subtitle">We treat food rescue with the same technological rigor as ride-sharing or food delivery. Our platform is built for speed, absolute safety, and massive scale.</p>
+                </div>
+
+                <div class="features-grid">
+                    <div class="feature-item">
+                        <div class="feature-icon"><i class="fas fa-map-location-dot"></i></div>
+                        <div class="feature-text">
+                            <h4>Advanced Geospatial Matching</h4>
+                            <p>Our algorithm dynamically connects donors with the nearest capable NGOs, factoring in real-time traffic to prioritize short travel distances.</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon"><i class="fas fa-temperature-arrow-down"></i></div>
+                        <div class="feature-text">
+                            <h4>Strict Food Safety Protocols</h4>
+                            <p>Built-in dynamic expiry timers and mandated temperature check prompts ensure all food is transported safely within health guidelines.</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon"><i class="fas fa-bell-concierge"></i></div>
+                        <div class="feature-text">
+                            <h4>Instant Push Architecture</h4>
+                            <p>No more missed emails. Nearby recipients receive targeted, real-time push notifications the exact millisecond surplus food is posted.</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon"><i class="fas fa-route"></i></div>
+                        <div class="feature-text">
+                            <h4>Live Chain-of-Custody</h4>
+                            <p>End-to-end transparency. Donors can watch on a live map interface as verified volunteers arrive, scan QR codes, and deliver.</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon"><i class="fas fa-file-contract"></i></div>
+                        <div class="feature-text">
+                            <h4>Automated CSR Reporting</h4>
+                            <p>Generate beautiful PDF reports of your CSR impact with one click. Perfect for board meetings and ESG reporting.</p>
+                        </div>
+                    </div>
+                     <div class="feature-item">
+                        <div class="feature-icon"><i class="fas fa-star-half-stroke"></i></div>
+                        <div class="feature-text">
+                            <h4>Verified Trust System</h4>
+                            <p>Ensures accountability by requiring KYC verification for NGOs, and allowing users to rate quality after every transaction.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tech-banner">
+                    <div style="flex: 1; z-index: 2;">
+                        <h3>The FoodShare Enterprise Dashboard</h3>
+                        <p style="font-size: 1.15rem; opacity: 0.9; margin-bottom: 30px;">For large restaurant chains, hotel groups, and corporate campuses, we offer a centralized dashboard. Manage food waste across dozens of locations from one screen.</p>
+                        <ul class="pro-list" style="color: white;">
+                            <li><i style="color:var(--gold)" class="fas fa-check-circle"></i> View real-time rescue statuses across all branches.</li>
+                            <li><i style="color:var(--gold)" class="fas fa-check-circle"></i> Export monthly carbon offset data for ESG reporting.</li>
+                            <li><i style="color:var(--gold)" class="fas fa-check-circle"></i> Set up distinct user permissions for shift managers.</li>
+                        </ul>
+                    </div>
+                    <div style="flex: 1; z-index: 2;">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Dashboard analytics" style="border-radius: 20px; box-shadow: 0 20px 40px rgba(0,0,0,0.4); border: 4px solid var(--brown);">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 6: IMPACT -->
+        <section id="impact" class="section-padding testimonials-section pattern-dots view-page">
+            <div class="container">
+                <div class="text-center">
+                    <span class="section-tag" style="background: rgba(86, 122, 70, 0.1); border-color: rgba(86, 122, 70, 0.2); color: var(--green);">Real Human Impact</span>
+                    <h2 class="section-title">Voices of Change</h2>
+                    <p class="section-subtitle">Numbers tell one part of the story, but the people on the ground tell the real one. Hear from the businesses and organizations using FoodShare.</p>
+                </div>
+
+                <div class="case-study-box">
+                    <div class="case-img"></div>
+                    <div class="case-content">
+                        <span style="color: var(--orange); font-weight: bold; text-transform: uppercase; letter-spacing: 2px;">Featured Case Study</span>
+                        <h3 style="font-size: 2.2rem; margin: 15px 0;">TechGlobal Annual Summit 2025</h3>
+                        <p><strong>The Challenge:</strong> A 3-day tech conference for 5,000 attendees resulting in massive over-catering due to unpredictable attendee schedules.</p>
+                        <p><strong>The Solution:</strong> FoodShare partnered with the event's catering team. Using the platform, kitchen staff safely directed excess meals to local centers instantly.</p>
+                        <div style="display: flex; gap: 30px; margin-top: 30px; padding-top: 30px; border-top: 1px solid var(--border-color);">
+                            <div><h2 style="color: var(--green); font-size: 2.5rem; margin-bottom:0;">1,450</h2><span style="color: var(--brown); font-weight:600;">Meals Rescued</span></div>
+                            <div><h2 style="color: var(--green); font-size: 2.5rem; margin-bottom:0;">6</h2><span style="color: var(--brown); font-weight:600;">Local Shelters Fed</span></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testi-grid" style="margin-top: 60px;">
+                    <div class="testi-card">
+                        <i class="fas fa-quote-right quote-icon"></i>
+                        <p class="testi-text">"As a restaurant owner, it broke my heart to throw away fresh food. FoodShare made it incredibly easy to connect with shelters instantly. Now, zero food goes to waste."</p>
+                        <div class="testi-author">
+                            <div class="author-img" style="background: var(--gold);">R</div>
+                            <div class="author-info">
+                                <h4>Rahul Verma</h4>
+                                <p>Owner, The Grand Kitchen</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="testi-card">
+                        <i class="fas fa-quote-right quote-icon"></i>
+                        <p class="testi-text">"FoodShare transformed how our NGO operates. We used to spend hours calling around for donations. The real-time alerts mean we get food while it's still warm."</p>
+                        <div class="testi-author">
+                            <div class="author-img" style="background: var(--green);">A</div>
+                            <div class="author-info">
+                                <h4>Aisha Khan</h4>
+                                <p>Director, Hope Foundation NGO</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+             <div style="margin-top: 100px;">
+                    <div class="text-center" style="margin-bottom: 40px;">
+                        <h3 style="font-size: 2.5rem;">Frequently Asked Questions</h3>
+                    </div>
+                    
+                    <div class="faq-wrapper">
+                        <details>
+                            <summary>Is there a minimum amount of food required to donate?</summary>
+                            <p>No, there is no strict minimum. However, we recommend a minimum volume equivalent to 15 meals (approx. 15-20 lbs) to ensure the logistics are cost-effective and worthwhile for our NGO volunteer drivers.</p>
+                        </details>
+                        <details>
+                            <summary>What types of food can NOT be donated?</summary>
+                            <p>For safety reasons, we strictly prohibit: food that has been previously served or plated to a consumer, expired packaged goods, raw meat/seafood (unless frozen solid and packaged commercially), or unverified home-cooked meals.</p>
+                        </details>
+                        <details>
+                            <summary>How does the NGO verification process work?</summary>
+                            <p>Every NGO must pass a rigorous 5-point verification check. They must provide valid government non-profit registration documents (e.g., 501(c)(3)), pass a facility health inspection to ensure proper storage capabilities, and designate authorized personnel for pickups.</p>
+                        </details>
+                        <details>
+                            <summary>Is there a cost to use the platform?</summary>
+                            <p>For verified NGOs, the platform is 100% free forever. For enterprise donors, we offer a free base tier for local businesses, and a premium SaaS tier for large corporations requiring API integrations, multi-location dashboards, and custom ESG reporting tools.</p>
+                        </details>
+                    </div>
+                </div>
+        </section>
+
+        <!-- SECTION 7: DONATE FORMS -->
+        <section id="donate" class="section-padding pattern-dots view-page" style="background-color: var(--cream);">
+            <div class="container">
+                <div class="text-center">
+                    <span class="section-tag">Take Action Today</span>
+                    <h2 class="section-title">Join the FoodShare Network</h2>
+                    <p class="section-subtitle">Whether you have surplus food to give, or you represent an NGO looking to feed your community, joining the network is completely free.</p>
+                </div>
+
+                <div class="form-container css-tabs">
+                    
+                    <!-- Pure CSS Radio Hack for Tabs -->
+                    <input type="radio" name="form-tab" id="tab-donor" class="tab-radio" checked>
+                    <input type="radio" name="form-tab" id="tab-ngo" class="tab-radio">
+
+                    <div class="form-tabs">
+                        <label for="tab-donor" class="form-tab-btn"><i class="fas fa-box-open" style="margin-right: 8px;"></i> Register as Donor</label>
+                        <label for="tab-ngo" class="form-tab-btn ngo-tab"><i class="fas fa-hands-holding-child" style="margin-right: 8px;"></i> Apply as NGO</label>
+                    </div>
+
+                    <!-- 1. Donor Form Wrapper -->
+                    <div id="donor-form-wrapper" class="form-wrapper">
+                        <h3 style="border-bottom: 2px solid var(--border-color); padding-bottom: 20px; margin-bottom: 40px; font-size: 1.8rem; color: var(--orange);">Donor Registration Form</h3>
+                        
+                        <form action="#" method="POST">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label>Business / Organization Name *</label>
+                                    <input type="text" class="form-control" placeholder="e.g. The Grand Bakery" required>
+                                </div>
+                                <div class="form-group">
+                                    <label>Business Type *</label>
+                                    <select class="form-control" required>
+                                        <option value="">Select Category</option>
+                                        <option value="restaurant">Restaurant / Cafe</option>
+                                        <option value="grocery">Grocery Store / Supermarket</option>
+                                        <option value="catering">Event Catering / Hotel</option>
+                                        <option value="corporate">Corporate Office / Cafeteria</option>
+                                        <option value="farm">Farm / Wholesale Produce</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label>Contact Person (Primary) *</label>
+                                    <input type="text" class="form-control" placeholder="Full Name" required>
+                                </div>
+                                <div class="form-group">
+                                    <label>Mobile Number *</label>
+                                    <input type="tel" class="form-control" placeholder="+91 XXXXX XXXXX" required>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label>Official Email Address *</label>
+                                <input type="email" class="form-control" placeholder="manager@yourbusiness.com" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label>Pickup Address (Complete) *</label>
+                                <input type="text" class="form-control" placeholder="Street Address, Area, City, Pincode" required>
+                            </div>
+
+                            <div class="form-group" style="margin-top: 40px;">
+                                <button type="submit" class="btn btn-primary" style="width: 100%; padding: 20px; font-size: 1.2rem; border-radius: 15px;">
+                                    Create Free Enterprise Account <i class="fas fa-arrow-right"></i>
+                                </button>
+                            </div>
+                            <p style="text-align: center; font-size: 0.95rem; margin-top: 20px;">By registering, you agree to our strictly enforced <a href="#" style="color:var(--orange); text-decoration: underline; font-weight:bold;">Food Safety Guidelines</a> and Terms of Service.</p>
+                        </form>
+                    </div>
+
+                    <!-- 2. NGO Form Wrapper -->
+                    <div id="ngo-form-wrapper" class="form-wrapper">
+                        <h3 style="border-bottom: 2px solid var(--border-color); padding-bottom: 20px; margin-bottom: 40px; font-size: 1.8rem; color: var(--green);">NGO Partner Application</h3>
+                        
+                        <form action="#" method="POST">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label>Registered NGO Name *</label>
+                                    <input type="text" class="form-control" placeholder="e.g. Hope Foundation" required>
+                                </div>
+                                <div class="form-group">
+                                    <label>Registration Number / Tax ID *</label>
+                                    <input type="text" class="form-control" placeholder="Govt. Registration ID" required>
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label>Authorized Contact Person *</label>
+                                    <input type="text" class="form-control" placeholder="Full Name" required>
+                                </div>
+                                <div class="form-group">
+                                    <label>Mobile Number *</label>
+                                    <input type="tel" class="form-control" placeholder="+91 XXXXX XXXXX" required>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label>Official NGO Email Address *</label>
+                                <input type="email" class="form-control" placeholder="contact@yourngo.org" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label>Distribution Center Address *</label>
+                                <input type="text" class="form-control" placeholder="Street Address, Area, City, Pincode" required>
+                            </div>
+
+                            <div class="form-group" style="margin-top: 40px;">
+                                <button type="submit" class="btn btn-secondary" style="width: 100%; padding: 20px; font-size: 1.2rem; border-radius: 15px; background: var(--secondary-gradient); color: white !important; border: none; box-shadow: 0 8px 20px rgba(86, 122, 70, 0.25);">
+                                    Submit NGO Application <i class="fas fa-check"></i>
+                                </button>
+                            </div>
+                            <p style="text-align: center; font-size: 0.95rem; margin-top: 20px;">Our verification team will review your application within 24-48 hours. Ensure your Registration ID is accurate.</p>
+                        </form>
+                    </div>
+                </div>
+
+                <div style="max-width: 900px; margin: 80px auto 0; text-align: center;">
+                    <h3 style="margin-bottom: 30px; font-size: 2rem;">Food Safety & Acceptance Guidelines</h3>
+                    <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
+                        <div style="background: var(--white); padding: 18px 30px; border-radius: 50px; color: var(--green); border: 2px solid var(--green); font-weight: 600; box-shadow: var(--shadow-sm);"><i class="fas fa-check-circle"></i> Unserved Prepared Meals</div>
+                        <div style="background: var(--white); padding: 18px 30px; border-radius: 50px; color: var(--green); border: 2px solid var(--green); font-weight: 600; box-shadow: var(--shadow-sm);"><i class="fas fa-check-circle"></i> Fresh Produce</div>
+                        <div style="background: rgba(255,0,0,0.05); padding: 18px 30px; border-radius: 50px; color: #d32f2f; border: 2px solid #d32f2f; font-weight: 600;"><i class="fas fa-times-circle"></i> Plated Food</div>
+                        <div style="background: rgba(255,0,0,0.05); padding: 18px 30px; border-radius: 50px; color: #d32f2f; border: 2px solid #d32f2f; font-weight: 600;"><i class="fas fa-times-circle"></i> Expired Packaged Items</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="pattern-dots">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#home" class="logo-area">
+                        <img src="bg_removed_logo.png" alt="FoodShare Logo" class="footer-logo-img" onerror="this.style.display='none'">
+                    </a>
+                    <p style="margin-top: 30px;">Connecting Surplus Food to Those in Need. A fast, easy, and reliable enterprise-grade real-time platform creating a hunger-free, sustainable world.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                
+                <div>
+                    <h4 class="footer-title">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#purpose">Purpose</a></li>
+                        <li><a href="#how-it-works">How it Works</a></li>
+                        <li><a href="#mission">Our Mission</a></li>
+                        <li><a href="#features">Features</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="footer-title">Get Involved</h4>
+                    <ul class="footer-links">
+                        <li><a href="#donate">Donate Food</a></li>
+                        <li><a href="#">Partner with Us</a></li>
+                        <li><a href="#">Volunteer Drivers</a></li>
+                        <li><a href="#">Registered NGOs</a></li>
+                        <li><a href="#">Food Safety Rules</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="footer-title">Contact Us</h4>
+                    <ul class="footer-links">
+                        <li><i class="fas fa-envelope" style="margin-right: 12px; color: var(--orange); font-size:1.2rem;"></i> partnerships@foodshare.org</li>
+                        <li><i class="fas fa-phone" style="margin-right: 12px; color: var(--orange); font-size:1.2rem;"></i> +91 98765 43210</li>
+                        <li><i class="fas fa-map-marker-alt" style="margin-right: 12px; color: var(--orange); font-size:1.2rem;"></i> Headquarters, Mumbai, India</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="footer-tagline">
+                    SHARE MORE <i class="fas fa-heart"></i> WASTE LESS <i class="fas fa-heart"></i> FEED HOPE
+                </div>
+                <p style="margin-top: 20px; font-size: 1rem; font-weight: 500; color: var(--brown);">&copy; 2026 FoodShare Global Initiative. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
